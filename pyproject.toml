@@ -12,6 +12,7 @@ dependencies = ["numpy>=1.24"]
 [project.optional-dependencies]
 st = ["sentence-transformers"]
 dev = ["pytest>=7"]
+data = ["huggingface_hub", "pyarrow"]
 
 [tool.setuptools.packages.find]
 include = ["promptwork"]

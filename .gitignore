@@ -1,8 +1,21 @@
+# Python environments and caches
 .venv/
 __pycache__/
+*.py[cod]
 .pytest_cache/
+
+# Packaging outputs
 *.egg-info/
 build/
 dist/
-*.pyc
+
+# Local datasets, experiment outputs, and obsolete scripts
+data/
+results/
+archive/
+
+# Local reference material
 measuring semantic progress.pdf
+
+# Operating-system and interactive-session files
+.DS_Store
